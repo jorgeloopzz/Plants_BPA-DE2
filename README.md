@@ -4,6 +4,10 @@
 
 # 🧑‍🧑‍🧒 Team members
 
+- Jorge López Viera
+- Marta Tejera López
+- Cárles Tárrega Lorins
+
 # ⚙️ Hardware description
 
 # 🕹️ Software description
