@@ -15,3 +15,12 @@
 # 🖼️ Instructions and photos
 
 # 🛠️ References and tools
+
+<div align="center">
+    <a href="https://www.vut.cz/en/">
+        <img src="assets/but.png" width=200>
+    </a>
+    <a href="https://www.fekt.vut.cz/en/home">
+        <img src="assets/feec.png" width=400>
+    </a>
+</div>
