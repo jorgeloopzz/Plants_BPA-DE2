@@ -16,6 +16,10 @@
 
 # 🛠️ References and tools
 
+- [Course repository](https://github.com/tomas-fryza/esp-micropython)
+
+&nbsp;
+
 <div align="center">
     <a href="https://www.vut.cz/en/">
         <img src="assets/but.png" width=200>
