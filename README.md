@@ -4,9 +4,9 @@
 
 # 🧑‍🧑‍🧒 Team members
 
+- Carles Tàrrega Molins
 - Jorge López Viera
 - Marta Tejera López
-- Cárles Tárrega Lorins
 
 # ⚙️ Hardware description
 
