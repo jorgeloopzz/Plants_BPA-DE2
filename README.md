@@ -17,6 +17,7 @@
 # 🛠️ References and tools
 
 - [Course repository](https://github.com/tomas-fryza/esp-micropython)
+- [NeoPixel](https://docs.micropython.org/en/latest/esp8266/tutorial/neopixel.html)
 
 &nbsp;
 
