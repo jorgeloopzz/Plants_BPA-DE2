@@ -18,6 +18,7 @@
 
 - [Course repository](https://github.com/tomas-fryza/esp-micropython)
 - [NeoPixel](https://docs.micropython.org/en/latest/esp8266/tutorial/neopixel.html)
+- [Wokwi](https://wokwi.com/micropython)
 
 &nbsp;
 
