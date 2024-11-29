@@ -25,9 +25,5 @@ oled = SH1106_I2C(i2c)
 oled.text("Using OLED and", 0, 40)
 oled.text("ESP32", 50, 50)
 
-
-# WRITE YOUR CODE HERE
-
-
 # Finally update the OLED display so the text is displayed
 oled.show()
