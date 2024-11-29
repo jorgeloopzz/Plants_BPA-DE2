@@ -1,11 +1,3 @@
-"""
-MicroPython module for I2C OLED display with SH1106 driver.
-
-Components:
-- ESP32-based board
-- OLED display with SH1106 driver
-"""
-
 from machine import Pin
 from machine import I2C
 import framebuf
@@ -29,27 +21,44 @@ class SH1106_I2C(framebuf.FrameBuffer):
         super().__init__(self.buffer, width, height, framebuf.MONO_VLSB)
 
     def write_cmd(self, cmd):
-        """Write a byte of command to SH1106"""
+        """
+        Write a command byte to the SH1106 OLED display.
+
+        :param cmd: The command byte to be sent to the display.
+        """
         self.i2c.writeto(self.DEV_ADDR, bytearray([0x80, cmd]))
 
     def write_data(self, data):
-        """Write a databuffer to SH1106"""
+        """
+        Write a data buffer to the SH1106 OLED display.
+
+        :param data: A byte array containing the data to be sent.
+        """
         self.i2c.writeto(self.DEV_ADDR, b"\x40"+data)
 
     def poweron(self):
+        """Turn on the OLED display."""
         self.write_cmd(0xaf)
 
     def poweroff(self):
+        """Turn off the OLED display."""
         self.write_cmd(0xae)
 
     def sleep(self, value):
+        """Put the OLED display into sleep mode or wake it up."""
         self.write_cmd(0xae | (not value))
 
     def contrast(self, val):
+        """
+        Set the contrast of the OLED display.
+
+        :param val: Contrast value (0 to 255).
+        """
         self.write_cmd(0x81)
         self.write_cmd(val)
 
     def show(self):
+        """Refresh the OLED display with the current buffer data."""
         (w, p, buf) = (self.WIDTH, self.PAGES, self.buffer)
         for page in range(0, p):
             self.write_cmd(self.PAGE_ADDRESS | page)
@@ -59,7 +68,7 @@ class SH1106_I2C(framebuf.FrameBuffer):
             self.write_data(buf[(w*page):(w*page+w)])
 
     def _sh1106_init(self):
-        """Initialize SH1106"""
+        """Initialize the SH1106 OLED display with a set of predefined commands."""
         INIT_SEQ = (
             0xae,        # Turn off oled panel
             0x00,        # Set low column address
@@ -89,6 +98,7 @@ class SH1106_I2C(framebuf.FrameBuffer):
 
 
 def demo():
+    """Demo function to showcase the usage of the SH1106 OLED display."""
     # Init I2C using pins GP22 & GP21 (default I2C0 pins)
     i2c = I2C(0, scl=Pin(22), sda=Pin(21), freq=400_000)
     print(f"I2C configuration : {str(i2c)}")
