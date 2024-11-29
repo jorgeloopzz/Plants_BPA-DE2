@@ -10,6 +10,17 @@
 
 # ⚙️ Hardware description
 
+Parts used:
+
+- ESP32
+- 1 light sensor
+- 2 pushbuttons
+- 1 resistor of OHMS
+- SSD1306 OLED Display
+- 1 Neopixel LED strip
+
+![image](/assets/circuit.png)
+
 # 🕹️ Software description
 
 # 🖼️ Instructions and photos
