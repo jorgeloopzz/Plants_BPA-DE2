@@ -2,11 +2,21 @@
     🪴 Measurement of the environment for tropical plants 🪴
 </h1>
 
+- [🧑‍🧑‍🧒 Team members](https://github.com/jorgeloopzz/Plants_BPA-DE2?tab=readme-ov-file#-team-members)
+- [⚙️ Hardware description](https://github.com/jorgeloopzz/Plants_BPA-DE2?tab=readme-ov-file#%EF%B8%8F-hardware-description)
+- [🕹️ Software description](https://github.com/jorgeloopzz/Plants_BPA-DE2?tab=readme-ov-file#%EF%B8%8F-software-description)
+- [🖼️ Instructions and photos](https://github.com/jorgeloopzz/Plants_BPA-DE2?tab=readme-ov-file#%EF%B8%8F-instructions-and-photos)
+- [🛠️ References and tools](https://github.com/jorgeloopzz/Plants_BPA-DE2?tab=readme-ov-file#%EF%B8%8F-references-and-tools)
+
+&nbsp;
+
 # 🧑‍🧑‍🧒 Team members
 
 - Carles Tàrrega Molins
 - Jorge López Viera
 - Marta Tejera López
+
+&nbsp;
 
 # ⚙️ Hardware description
 
@@ -21,9 +31,15 @@ Parts used:
 
 ![image](/assets/circuit.png)
 
+&nbsp;
+
 # 🕹️ Software description
 
+&nbsp;
+
 # 🖼️ Instructions and photos
+
+&nbsp;
 
 # 🛠️ References and tools
 
