@@ -2,6 +2,10 @@
     🪴 Measurement of the environment for tropical plants 🪴
 </h1>
 
+The goal of this project is to create a system that measures key environmental parameters such as temperature, humidity, light levels, soil moisture for tropical plants. This system also allows the user to visualize the data obtained.
+
+---
+
 - [🧑‍🧑‍🧒 Team members](#-team-members)
 - [⚙️ Hardware description](#️-hardware-description)
 - [🕹️ Software description](#️-software-description)
