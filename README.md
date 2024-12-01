@@ -39,6 +39,16 @@ Parts used:
 
 # 🖼️ Instructions and photos
 
+|              **_Flowchart 1_**              |              **_Flowchart 2_**              |
+| :-----------------------------------: | :-----------------------------------: |
+| ![flowchart1](/assets/flowchart1.png) | ![flowchart2](/assets/flowchart2.png) |
+
+&nbsp;
+
+|               Result 1                |      Result 2                         |
+| :-----------------------------------: | :-----------------------------------: |
+|   ![result1](/assets/result1.jpeg)    |   ![result2](/assets/result2.jpeg)    |
+
 &nbsp;
 
 # 🛠️ References and tools
