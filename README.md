@@ -29,7 +29,7 @@ Parts used:
 - ESP32
 - 1 light sensor
 - 2 pushbuttons
-- 1 resistor of OHMS
+- 1 resistor
 - SSD1306 OLED Display
 - 1 Neopixel LED strip
 
@@ -66,7 +66,7 @@ src/
 
 ### 🎨 Colours
 
-In order to manage lights we`ve made functions to change each pixel color through a **_for_** loop.
+In order to manage lights we've made functions to change each pixel color through a **_for_** loop.
 
 ```python
 # src/leds.py
