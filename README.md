@@ -26,7 +26,7 @@ The goal of this project is to create a system that measures key environmental p
 
 Parts used:
 
-- ESP32
+- [ESP32](/assets/esp32.png)
 - 1 light sensor
 - 2 pushbuttons
 - 1 resistor
@@ -34,6 +34,13 @@ Parts used:
 - 1 Neopixel LED strip
 
 ![image](/assets/circuit.png)
+
+<details>
+  <summary>More details</summary>
+    - For NeoPixel, 1 pin for voltage, other for ground, and the last connected to any digital input. <br>
+    - 2 of the 4 pushbuttons pins must be disconnected, the other 2 can be connected to any digital input. <br>
+    - Since OLED display requires I2C commmunications we need to connect the correspond pins to SDA and SCL, pins 21 and 22.
+</details>
 
 &nbsp;
 
