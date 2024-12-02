@@ -99,7 +99,7 @@ def blue():
 
 &nbsp;
 
-|             Result 1             |             Result 2             |
+|          **_Result 1_**          |          **_Result 2_**          |
 | :------------------------------: | :------------------------------: |
 | ![result1](/assets/result1.jpeg) | ![result2](/assets/result2.jpeg) |
 
@@ -108,8 +108,11 @@ def blue():
 # 🛠️ References and tools
 
 - [Course repository](https://github.com/tomas-fryza/esp-micropython)
+- [Markdown guide](https://www.markdownguide.org/)
+- [Thonny IDE](https://thonny.org/)
 - [NeoPixel](https://docs.micropython.org/en/latest/esp8266/tutorial/neopixel.html)
 - [Wokwi](https://wokwi.com/micropython)
+- [Git](https://www.w3schools.com/git/)
 
 &nbsp;
 
