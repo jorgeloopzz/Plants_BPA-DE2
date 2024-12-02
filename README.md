@@ -115,9 +115,15 @@ def blue():
 
 <div align="center">
     <a href="https://www.vut.cz/en/">
-        <img src="assets/but.png" width=200>
+        <img src="https://img.shields.io/badge/BUT-FEEC-pass?style=for-the-badge&logo=fontawesome&logoColor=%23ffffff&labelColor=%23d12d34&color=%23173ba0
+        ">
     </a>
-    <a href="https://www.fekt.vut.cz/en/home">
-        <img src="assets/feec.png" width=400>
+    <a>
+        <img src="https://img.shields.io/badge/ESP32-board?style=for-the-badge&logo=opensourcehardware&logoColor=%23ffffff&label=Board&labelColor=%23494d64&color=%23f5a97f
+        ">
+    </a>
+    <a href="https://micropython.org/">
+        <img src="https://img.shields.io/badge/MicroPython-board?style=for-the-badge&logo=micropython&labelColor=%232a2628&color=%23ffffff
+        ">
     </a>
 </div>
