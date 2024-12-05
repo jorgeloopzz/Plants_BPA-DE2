@@ -141,6 +141,7 @@ def blue():
 
 - [Course repository](https://github.com/tomas-fryza/esp-micropython)
 - [Markdown guide](https://www.markdownguide.org/)
+- [Plants lights](https://www.sansiled.com/blogs/learn/full-guide-how-to-choose-the-right-led-grow-light-for-indoor-plants?srsltid=AfmBOoqe4BZMuldTM41Fa41uPQ0RgtTld7ecW41ph5GGAbkUcQqhSEnm)
 - [Thonny IDE](https://thonny.org/)
 - [NeoPixel](https://docs.micropython.org/en/latest/esp8266/tutorial/neopixel.html)
 - [Wokwi](https://wokwi.com/micropython)
