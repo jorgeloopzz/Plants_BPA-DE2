@@ -26,6 +26,7 @@ Parts used:
 
 - [ESP32](/assets/esp32.png)
 - 1 light sensor
+- DHT12 sensor
 - 2 pushbuttons
 - 1 resistor
 - SSD1306 OLED Display
